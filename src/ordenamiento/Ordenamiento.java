@@ -92,7 +92,6 @@ public class Ordenamiento {
 				izquierda_lista.add(a[i]);
 			else
 				derecha_lista.add(a[i]);
-			
 		}
 		
 		izquierda = izquierda_lista.stream().mapToInt(i->i).toArray();
